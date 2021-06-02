@@ -1,2 +1,2 @@
 # proWine
-Research on properties of wines using textual reviews
+Research on wine grape varieties' properties and creation of classifiers using textual reviews.
