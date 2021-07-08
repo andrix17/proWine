@@ -100,7 +100,7 @@ Accuracy: 0.759
 | Nebbiolo           | 0.987     | 0.843  | 0.909      |
 
 ##### Bernoulli Naive Bayes 
-Accuracy: 0.759
+Accuracy: 0.705
 |                    | Precision | Recall | F1-Measure |
 |--------------------|-----------|--------|------------|
 | Pinot Noir         | 0.652     | 0.899  | 0.756      |
