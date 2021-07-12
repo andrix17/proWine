@@ -141,5 +141,5 @@ Accuracy: 0.706
 | Nebbiolo           | 0.842     | 0.778  | 0.809      |
 
 
-Multinomial Naive Bayes e Bernoulli Naive Bayes sono gli unici classificatori a non avere una differenza significativa con un livello di confidenza pari al 95%.
-Le loro accuracy sono significativamente differenti con una probabilità del 39.5%.
+Multinomial Naive Bayes and Bernoulli Naive Bayes are the only classifiers that don't have a significant difference with a 95% confidence level. 
+Their accuracies are significantly different with a probability of 39.5%.
