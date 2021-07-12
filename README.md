@@ -87,30 +87,30 @@ Accuracy: 0.754
 | Nebbiolo           | 0.898     | 0.900  | 0.899      |
 
 ##### Multinomial Naive Bayes 
-Accuracy: 0.759
+Accuracy: 0.789
 |                    | Precision | Recall | F1-Measure |
 |--------------------|-----------|--------|------------|
-| Pinot Noir         | 0.727     | 0.940  | 0.820      |
-| Chardonnay         | 0.759     | 0.942  | 0.841      |
-| Cabernet Sauvignon | 0.653     | 0.796  | 0.718      |
-| Riesling           | 0.899     | 0.733  | 0.808      |
-| Sauvignon Blanc    | 0.893     | 0.544  | 0.676      |
-| Syrah              | 0.862     | 0.430  | 0.574      |
-| Merlot             | 0.980     | 0.051  | 0.098      |
-| Nebbiolo           | 0.987     | 0.843  | 0.909      |
+| Pinot Noir         | 0.840     | 0.861  | 0.851      |
+| Chardonnay         | 0.848     | 0.865  | 0.856      |
+| Cabernet Sauvignon | 0.748     | 0.746  | 0.747      |
+| Riesling           | 0.826     | 0.845  | 0.835      |
+| Sauvignon Blanc    | 0.740     | 0.726  | 0.733      |
+| Syrah              | 0.665     | 0.659  | 0.662      |
+| Merlot             | 0.526     | 0.462  | 0.492      |
+| Nebbiolo           | 0.939     | 0.890  | 0.914      |
 
 ##### Bernoulli Naive Bayes 
-Accuracy: 0.705
+Accuracy: 0.786
 |                    | Precision | Recall | F1-Measure |
 |--------------------|-----------|--------|------------|
-| Pinot Noir         | 0.652     | 0.899  | 0.756      |
-| Chardonnay         | 0.675     | 0.954  | 0.791      |
-| Cabernet Sauvignon | 0.747     | 0.672  | 0.708      |
-| Riesling           | 0.960     | 0.549  | 0.699      |
-| Sauvignon Blanc    | 0.762     | 0.637  | 0.694      |
-| Syrah              | 0.862     | 0.340  | 0.489      |
-| Merlot             | 0.529     | 0.400  | 0.455      |
-| Nebbiolo           | 1.000     | 0.273  | 0.429      |
+| Pinot Noir         | 0.847     | 0.857  | 0.852      |
+| Chardonnay         | 0.840     | 0.864  | 0.852      |
+| Cabernet Sauvignon | 0.758     | 0.732  | 0.745      |
+| Riesling           | 0.834     | 0.836  | 0.835      |
+| Sauvignon Blanc    | 0.728     | 0.730  | 0.729      |
+| Syrah              | 0.657     | 0.665  | 0.661      |
+| Merlot             | 0.503     | 0.498  | 0.500      |
+| Nebbiolo           | 0.955     | 0.876  | 0.913      |
 
 #### LSA Classifiers
 
@@ -139,3 +139,7 @@ Accuracy: 0.706
 | Syrah              | 0.472     | 0.268  | 0.342      |
 | Merlot             | 0.353     | 0.057  | 0.098      |
 | Nebbiolo           | 0.842     | 0.778  | 0.809      |
+
+
+Multinomial Naive Bayes e Bernoulli Naive Bayes sono gli unici classificatori a non avere una differenza significativa con un livello di confidenza pari al 95%.
+Le loro accuracy sono significativamente differenti con una probabilità del 39.5%.
